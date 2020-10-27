@@ -1,4 +1,4 @@
-# Arit.TestFiles #
+# UploaderTestFiles #
 
 Various files of different types and sizes to use in testing applications.
 
@@ -8,8 +8,8 @@ Clean Office files with file size.
 
 ## Exact Size ##
 
-Fake files generated using ```fsutil file createnew "Fake File (X MB).ext" XXXX```.
+Fake files generated in Windows using the command ```fsutil file createnew "Fake File (X MB).ext" XXXX```.
 
-These files are exactly sizes to the byte. Rename the extension to what you need for your testing. 
+These files are exactly sized to the byte. Rename the extension to what you need for your testing. 
 
-Good for testing upload limits on websites or bench marking file copy operations.
+Useful for testing upload limits on websites or benchmarking file copy operations.
